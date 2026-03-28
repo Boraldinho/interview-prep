@@ -1,0 +1,41 @@
+site_name: Подготовка к собеседованию
+site_description: Материалы для подготовки к техническому собеседованию
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search:
+      lang: ru
+
+nav:
+  - Главная: index.md
+  - Linux:
+    - Вопросы и ответы: Linux/Linux — Вопросы и ответы.md
+    - 01. Мониторинг и производительность: Linux/01 — Мониторинг и производительность.md
+    - 02. Файловая система: Linux/02 — Файловая система.md
+    - 03. Bash скриптинг: Linux/03 — Bash скриптинг.md
+    - 04. Управление процессами: Linux/04 — Управление процессами.md
+    - 05. Память в Linux: Linux/05 — Память в Linux.md
+    - 06. SSH и безопасность: Linux/06 — SSH и безопасность.md
+    - 07. Загрузка Linux: Linux/07 — Загрузка Linux.md
